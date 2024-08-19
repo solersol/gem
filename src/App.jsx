@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon, Hero3} from "./sections";
+import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon, Hero3, Footer2} from "./sections";
 import VideoBackground from "./components/VideoBackground";
 import VideoBackground2 from "./components/VideoBackground2";
 
@@ -69,14 +69,15 @@ return(
     </section>
     <Separator />
     <section className="w-full h-screen bg-repeat bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
-       <ButtonSection linkUrl="https://pump.fun/board"  />
+       <ButtonSection linkUrl="https://pump.fun/"  />
     </section>
 
     <SeparatorReverse />
     
-    <section className="w-full h-full bg-no-repeat bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
-       <ButtonSection2 linkUrl="https://pump.fun/board" />
+    <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
+       <ButtonSection2 />
     </section>
+    <Footer2 linkUrl="https://pump.fun/" />
   </main>
 );
 };

@@ -16,6 +16,7 @@ import Links from "./Links"
 import Join from "./Join"
 import ComingSoon from './ComingSoon'
 import ButtonSection2 from './ButtonSection2'
+import Footer2 from './Footer2'
 
 
 
@@ -39,4 +40,5 @@ export{
     Join,
     ComingSoon,
     ButtonSection2,
+    Footer2
 }

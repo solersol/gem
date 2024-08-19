@@ -8,7 +8,7 @@ const ButtonSection = ({ linkUrl }) => {
         href={linkUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="block p-4 bg-transparent hover:scale-125  rounded-full"
+        className="block p-4 bg-transparent transform transition-transform duration-300 hover:scale-125 cursor-pointer  rounded-full"
       >
         <img src={buttonImage} alt="Button" className="w-[60%] h-[60%] animate-bounce" />
       </a>

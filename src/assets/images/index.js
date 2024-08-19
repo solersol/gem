@@ -33,6 +33,7 @@ import spinningImage from './spin.png'
 import topLogo from './topLogo.png'
 import diamondImage from './diamond.png'
 import buttonImage from './buttonImage.png'
+import bed from './bed.png'
 
 
 
@@ -80,6 +81,7 @@ export {
     topLogo,
     diamondImage,
     buttonImage,
+    bed,
 
 
 
