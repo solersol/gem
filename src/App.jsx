@@ -1,5 +1,5 @@
 
-import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon} from "./sections";
+import { Hero, About, Roadmap2,Roadmap3, About2,About3,About4,Links, NewSection, Join , ComingSoon, Hero3} from "./sections";
 import VideoBackground from "./components/VideoBackground";
 import VideoBackground2 from "./components/VideoBackground2";
 
@@ -19,6 +19,12 @@ import main3 from './assets/images/main3.png';
 import bgImage from './assets/images/main.png';
 import mainbg from './assets/images/mainbg.png';
 import linkBg from './assets/images/linkBg.png'
+import ButtonSection from "./sections/ButtonSection";
+import ButtonSection2 from "./sections/ButtonSection2";
+
+import buttonBg from './assets/images/buttonBg.png'
+import buttonBg2 from './assets/images/buttonBg2.png'
+
 
 
 
@@ -41,7 +47,7 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative bg-[#fbe5c4]" >
+  <main className="relative bg-[#676665]" >
     {/* <Nav /> */}
    
 
@@ -50,28 +56,25 @@ return(
 
     {/* <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${main3})` }}><ComingSoon /></section> */}
    
-    <VideoBackground >
-      <Hero />
-    </ VideoBackground >
-    <Separator />
+    <Hero3 />
+    <SeparatorReverse />
+    
 
   
 
     <section className="w-full h-screen bg-cover bg-center   " style={{ backgroundImage: `url(${bgImage})` }}>
-      <Roadmap2 />
+      <NewSection />
     </section>
+    <Separator />
+    <section className="w-full h-full bg-repeat bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
+       <ButtonSection />
+    </section>
+
     <SeparatorReverse />
     
-    <About4 />
-    <section className="w-full h-full bg-repeat bg-center   " style={{ backgroundImage: `url(${linkBg})` }}>
-    <Links />
+    <section className="w-full h-screen bg-no-repeat bg-center bg-auto" style={{ backgroundImage: `url(${buttonBg2})` }}>
+       <ButtonSection2 linkUrl="https://your-link.com" />
     </section>
-        
-        <Join />
-     
-
-
-    <section className=""><StickyFooter /></section> 
   </main>
 );
 };

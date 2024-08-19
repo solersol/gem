@@ -1,0 +1,104 @@
+
+import React from 'react';
+import { FaClipboard } from 'react-icons/fa'; // Clipboard icon for the copy button
+import { logoMain, diamondImage, cardImage1, img1, img2 } from '../assets/images'; // Replace with your actual image paths
+
+const Hero3 = () => {
+  const contractAddress = 'LOADING...'; // Replace with the actual contract address
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(contractAddress);
+    alert('Contract address copied to clipboard!');
+  };
+
+  return (
+    <section className="w-full h-[100%] relative flex flex-col items-center justify-between bg-[#676665] text-black">
+      {/* Top Buttons */}
+      <div className="w-full flex justify-end p-4 space-x-4">
+        <button
+          onClick={() => document.getElementById('roadmap').scrollIntoView({ behavior: 'smooth' })}
+          className="bg-blue-500 text-black font-anton border-4 border-black px-11 py-2 rounded-lg hover:bg-blue-700"
+        >
+          ROADMAP
+        </button>
+        <a
+          href="https://x.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 text-white border-4 border-black px-6 py-2 rounded-lg hover:bg-blue-700 flex items-center"
+        >
+          <img src={img2} alt="X Logo" className="w-6 h-6" />
+        </a>
+      </div>
+
+      {/* Main Content */}
+      <div className="flex flex-1 items-center justify-between w-full max-w-7xl px-8">
+        {/* Left Image */}
+        <div className="w-1/3 animate-slide-in-left">
+          <img src={diamondImage} alt="Diamond" className="w-full h-auto" />
+        </div>
+
+        {/* Right Side */}
+        <div className="w-2/3 flex flex-col items-center animate-slide-in-right">
+          {/* Logo */}
+          <img src={logoMain} alt="Logo" className="w-1/2 h-auto mb-8" />
+
+          {/* Contract Address with Copy Button */}
+          <div className="bg-purple-600 border-black border-4 p-4 rounded-lg flex items-center space-x-2">
+            <input
+              type="text"
+              value={contractAddress}
+              readOnly
+              className="w-80 bg-[#8218df] border-4 border-[#922c8d] rounded-lg px-4 py-2 text-black font-anton text-lg"
+            />
+            <button
+              onClick={copyToClipboard}
+              className="bg-blue-500 text-white p-3 rounded-lg hover:bg-blue-700 flex items-center"
+            >
+              <FaClipboard />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Buttons */}
+      <div className="relative w-full h-full flex justify-center items-center mt-72">
+        {/* First Button */}
+        <a
+          href="https://your-link1.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
+          style={{
+            width: '290px',
+            height: '200px',
+            bottom: '-100px',
+            left: '40%',
+            transform: 'rotate(-10deg)',
+          }}
+        >
+          <img src={img1} alt="Button 1" className="w-32 h-32" />
+        </a>
+
+        {/* Second Button */}
+        <a
+          href="https://your-link2.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
+          style={{
+            width: '290px',
+            height: '200px',
+            bottom: '-90px',
+            right: '23%',
+            transform: 'rotate(10deg)',
+          }}
+        >
+          <img src={cardImage1} alt="Button 2" className="w-32 h-32" />
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Hero3;

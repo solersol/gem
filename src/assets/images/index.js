@@ -1,4 +1,4 @@
-import logoMain from './favicon1.ico'
+import logoMain from './logo.png'
 import  bannerMain  from './banner.png';
 import banner2 from './banner2.png';
 import about from './about.png';
@@ -31,6 +31,8 @@ import rd2 from './rd2.png'
 import joinImage from './join.png'
 import spinningImage from './spin.png'
 import topLogo from './topLogo.png'
+import diamondImage from './diamond.png'
+import buttonImage from './buttonImage.png'
 
 
 
@@ -76,6 +78,8 @@ export {
     joinImage,
     spinningImage,
     topLogo,
+    diamondImage,
+    buttonImage,
 
 
 

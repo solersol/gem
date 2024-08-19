@@ -1,4 +1,6 @@
 import Hero from "./Hero";
+import Hero3 from "./Hero3";
+
 import About from "./About"
 import About2 from "./About2"
 import About3 from "./About3"
@@ -13,6 +15,7 @@ import Roadmap3 from "./Roadmap3"
 import Links from "./Links"
 import Join from "./Join"
 import ComingSoon from './ComingSoon'
+import ButtonSection2 from './ButtonSection2'
 
 
 
@@ -22,6 +25,7 @@ import ComingSoon from './ComingSoon'
 
 export{
     Hero,
+    Hero3,
     About,
     // Roadmap,
     Tokenomics,
@@ -34,4 +38,5 @@ export{
     Links,
     Join,
     ComingSoon,
+    ButtonSection2,
 }
