@@ -3,7 +3,7 @@ import { FaClipboard } from 'react-icons/fa';
 import { logoMain, diamondImage, cardImage1, img1, img2 } from '../assets/images';
 
 const Hero3 = () => {
-  const contractAddress = '5jvKw1dDT87UhC2mzXv2QcLNTEbT5awDejs3Qvbpump';
+  const contractAddress = 'LOADING...';
   const [inputWidth, setInputWidth] = useState(0);
   const hiddenDivRef = useRef(null);
 
