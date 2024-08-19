@@ -49,7 +49,7 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative " style={{ backgroundImage: `url(${fullBg})` }} >
+  <main className="relative bg-[#cdd1ff] "  >
     {/* <Nav /> */}
    
 
@@ -68,7 +68,7 @@ return(
       <NewSection />
     </section>
     <Separator />
-    <section className="w-full h-screen bg-repeat bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
+    <section className="w-full h-full bg-cover bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
        <ButtonSection linkUrl="https://pump.fun/"  />
     </section>
 
