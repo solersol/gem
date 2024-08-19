@@ -17,6 +17,8 @@ import rdImage from './assets/images/roadmap2.png';
 import main2 from './assets/images/main2.png';
 import main3 from './assets/images/main3.png';
 import bgImage from './assets/images/main.png';
+import fullBg from './assets/images/fullBg.png';
+
 import mainbg from './assets/images/mainbg.png';
 import linkBg from './assets/images/linkBg.png'
 import ButtonSection from "./sections/ButtonSection";
@@ -47,7 +49,7 @@ const App = () => {
   //   return <LoadingScreen />;
   // }
 return(
-  <main className="relative bg-[#676665]" >
+  <main className="relative " style={{ backgroundImage: `url(${fullBg})` }} >
     {/* <Nav /> */}
    
 
@@ -66,14 +68,14 @@ return(
       <NewSection />
     </section>
     <Separator />
-    <section className="w-full h-full bg-repeat bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
-       <ButtonSection />
+    <section className="w-full h-screen bg-repeat bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
+       <ButtonSection linkUrl="https://pump.fun/board"  />
     </section>
 
     <SeparatorReverse />
     
-    <section className="w-full h-screen bg-no-repeat bg-center bg-auto" style={{ backgroundImage: `url(${buttonBg2})` }}>
-       <ButtonSection2 linkUrl="https://your-link.com" />
+    <section className="w-full h-full bg-no-repeat bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
+       <ButtonSection2 linkUrl="https://pump.fun/board" />
     </section>
   </main>
 );

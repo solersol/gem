@@ -1,20 +1,18 @@
 import React from 'react';
 import { buttonImage } from '../assets/images'; // Replace with your actual image path
 
-const ButtonSection = () => {
+const ButtonSection = ({ linkUrl }) => {
   return (
-    <section className="w-full h-screen flex items-center justify-center ">
-      <button
-        onClick={() => alert('Button clicked!')} // Replace with your desired action
-        className="relative bg-transparent border-none p-0 cursor-pointer"
+    <div className="w-full h-screen flex justify-end items-center pb-[29rem]">
+      <a
+        href={linkUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block p-4 bg-transparent hover:scale-125  rounded-full"
       >
-        <img 
-          src={buttonImage} 
-          alt="Click Me" 
-          className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-110" 
-        />
-      </button>
-    </section>
+        <img src={buttonImage} alt="Button" className="w-[60%] h-[60%] animate-bounce" />
+      </a>
+    </div>
   );
 };
 

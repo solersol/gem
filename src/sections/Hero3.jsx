@@ -12,7 +12,7 @@ const Hero3 = () => {
   };
 
   return (
-    <section className="w-full h-[100%] relative flex flex-col items-center justify-between bg-[#676665] text-black">
+    <section className="w-full h-[100%] relative flex flex-col items-center justify-between  text-black">
       {/* Top Buttons */}
       <div className="w-full flex justify-end p-4 space-x-4">
         <button
@@ -22,7 +22,7 @@ const Hero3 = () => {
           ROADMAP
         </button>
         <a
-          href="https://x.com"
+          href="https://pump.fun/board"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 text-white border-4 border-black px-6 py-2 rounded-lg hover:bg-blue-700 flex items-center"
@@ -65,7 +65,7 @@ const Hero3 = () => {
       <div className="relative w-full h-full flex justify-center items-center mt-72">
         {/* First Button */}
         <a
-          href="https://your-link1.com"
+          href="https://x.com/Gem0nSol"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
@@ -82,7 +82,7 @@ const Hero3 = () => {
 
         {/* Second Button */}
         <a
-          href="https://your-link2.com"
+          href="https://t.me/GEM2MILLIONZ"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
