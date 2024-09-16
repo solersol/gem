@@ -69,7 +69,7 @@ return(
     </section>
     <Separator />
     <section className="w-full h-full bg-cover bg-center   " style={{ backgroundImage: `url(${buttonBg})` }}>
-       <ButtonSection linkUrl="https://pump.fun/5eayDLdACv74f7hWWvZDEGaUAwHhg15XBL2hV8jFpump"  />
+       <ButtonSection linkUrl="https://pump.fun/"  />
     </section>
 
     <SeparatorReverse />
@@ -77,7 +77,7 @@ return(
     <section className="w-full h-screen bg-cover bg-center " style={{ backgroundImage: `url(${buttonBg2})` }}>
        <ButtonSection2 />
     </section>
-    <Footer2 linkUrl="https://pump.fun/5eayDLdACv74f7hWWvZDEGaUAwHhg15XBL2hV8jFpump" />
+    <Footer2 linkUrl="https://pump.fun/" />
   </main>
 );
 };
