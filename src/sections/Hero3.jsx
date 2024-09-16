@@ -29,7 +29,7 @@
 //           ROADMAP
 //         </button>
 //         <a
-//           href="https://pump.fun/board"
+//           href="https://pump.fun/8wj2wjqNTUBjLJtUgQNPwvcrmGGCmfP5M3pEPeJHpumpboard"
 //           target="_blank"
 //           rel="noopener noreferrer"
 //           className="bg-blue-500 text-white border-4 border-black px-20 py-11 rounded-3xl hover:bg-blue-700 flex items-center"
@@ -124,7 +124,7 @@ import { FaClipboard } from 'react-icons/fa'; // Clipboard icon for the copy but
 import { logoMain, diamondImage, cardImage1, img1, img2 } from '../assets/images'; // Replace with your actual image paths
 
 const Hero3 = () => {
-  const contractAddress = ''; // Replace with the actual contract address
+  const contractAddress = '8wj2wjqNTUBjLJtUgQNPwvcrmGGCmfP5M3pEPeJHpump'; // Replace with the actual contract address
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -142,7 +142,7 @@ const Hero3 = () => {
           ROADMAP
         </button>
         <a
-          href="https://pump.fun/"
+          href="https://pump.fun/8wj2wjqNTUBjLJtUgQNPwvcrmGGCmfP5M3pEPeJHpump"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 text-white border-4 border-black px-20 py-11 rounded-3xl hover:bg-blue-700 flex items-center"
