@@ -97,7 +97,7 @@
 
 //         {/* Second Button */}
 //         <a
-//           href="https://t.me/"
+//           href="https://t.me/HiddenGemRAY"
 //           target="_blank"
 //           rel="noopener noreferrer"
 //           className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
@@ -185,7 +185,7 @@ const Hero3 = () => {
       <div className="relative w-full h-full flex justify-center items-center mt-36">
         {/* First Button */}
         <a
-          href="https://t.me/"
+          href="https://t.me/HiddenGemRAY"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
@@ -202,7 +202,7 @@ const Hero3 = () => {
 
         {/* Second Button */}
         <a
-          href="https://t.me/"
+          href="https://t.me/HiddenGemRAY"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bg-blue-500 p-8 rounded-xl border-4 border-black hover:bg-blue-700 flex justify-center items-center transition-transform transform hover:scale-110"
